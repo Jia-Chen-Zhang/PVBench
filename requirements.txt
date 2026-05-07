@@ -1,0 +1,17 @@
+colorama
+markdown
+numpy==1.26.4
+pandas
+Pillow>=9.5.0
+pyyaml
+requests
+tqdm
+diskcache
+pygtrie
+openai==0.28.1
+pebble
+timeout_decorator
+tenacity
+datasets
+regex
+sympy
