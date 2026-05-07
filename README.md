@@ -23,3 +23,19 @@ The domain distribution of the finalized dataset is as follows:
 | **`knowledge`** | Knowledge & Common Sense | 565 |
 | **`code`** | Code Generation & Debugging | 39 |
 | **`all`** | **Total Validated Pairs** | **833** |
+
+## Setup OpenAI API
+
+Please set `os.environ["OPENAI_API_KEY"]="YOUR_API_KEY"` in all python scripts.
+
+Make sure that your device is able to connect to [OpenAI API](https://platform.openai.com/docs/api-reference). 
+
+Of course, we also support users calling DeepSeek's API. For more details on how to use DeepSeek, please refer to [DeepSeek API](https://api-docs.deepseek.com/zh-cn/).
+
+## How to Install
+
+```
+conda create -n pvbench python==3.10
+conda activate pvbench
+pip install -r requirements.txt
+```
